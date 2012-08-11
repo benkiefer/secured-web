@@ -7,6 +7,11 @@
     <groupId>org.burgers</groupId>
     <artifactId>secured-web</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
-    
+    <modules>
+        <module>parent</module>
+        <module>web</module>
+    </modules>
+
 </project>
