@@ -2,7 +2,7 @@
 <web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
-    <display-name>Archetype Created Web Application</display-name>
+    <display-name>Archetype Created Other Web Application</display-name>
 
     <context-param>
         <param-name>contextConfigLocation</param-name>
@@ -13,7 +13,6 @@
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>
 
-
     <filter>
         <filter-name>CASAuthenticationFilter</filter-name>
         <filter-class>org.jasig.cas.client.authentication.AuthenticationFilter</filter-class>
@@ -23,7 +22,7 @@
         </init-param>
         <init-param>
             <param-name>serverName</param-name>
-            <param-value>https://localhost:8444</param-value>
+            <param-value>https://localhost:8445</param-value>
         </init-param>
     </filter>
 
