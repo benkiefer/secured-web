@@ -14,6 +14,7 @@
         <module>web</module>
         <module>other-web</module>
         <module>authentication</module>
+        <module>integration</module>
     </modules>
 
 </project>

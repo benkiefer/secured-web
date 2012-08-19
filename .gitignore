@@ -5,3 +5,7 @@
 cas.log
 perfStats.log
 target
+servers/tomcat_6/webapps/*
+servers/tomcat_6/logs/*
+servers/tomcat_6/temp/*
+servers/tomcat_6/work/*

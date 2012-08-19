@@ -28,6 +28,21 @@
                 <type>war</type>
                 <version>${project.version}</version>
             </dependency>
+
+            <dependency>
+                <groupId>org.burgers</groupId>
+                <artifactId>secured-web-authentication</artifactId>
+                <type>war</type>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.burgers</groupId>
+                <artifactId>secured-web-other-webapp</artifactId>
+                <type>war</type>
+                <version>${project.version}</version>
+            </dependency>
+
             <dependency>
                 <groupId>org.jasig.cas</groupId>
                 <artifactId>cas-server-webapp</artifactId>
