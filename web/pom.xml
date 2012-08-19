@@ -60,14 +60,6 @@
                 <groupId>org.mortbay.jetty</groupId>
                 <artifactId>maven-jetty-plugin</artifactId>
                 <configuration>
-                    <stopPort>9988</stopPort>
-                    <connectors>
-                        <connector implementation="org.mortbay.jetty.security.SslSelectChannelConnector">
-                            <port>8444</port>
-                            <keystore>${tomcat.basedir}/conf/generic-keystore.jks</keystore>
-                            <keyPassword>password</keyPassword>
-                        </connector>
-                    </connectors>
                     <contextPath>web</contextPath>
                 </configuration>
             </plugin>

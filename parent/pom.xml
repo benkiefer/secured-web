@@ -126,6 +126,13 @@
                     <scanIntervalSeconds>5</scanIntervalSeconds>
                     <stopKey>foo</stopKey>
                     <stopPort>9999</stopPort>
+                    <connectors>
+                        <connector implementation="org.mortbay.jetty.security.SslSelectChannelConnector">
+                            <port>8443</port>
+                            <keystore>${tomcat.basedir}/conf/generic-keystore.jks</keystore>
+                            <keyPassword>password</keyPassword>
+                        </connector>
+                    </connectors>
                 </configuration>
                 <dependencies>
                     <dependency>
