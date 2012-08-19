@@ -3,7 +3,7 @@
 An example of single sign-on & single sign-off using Spring and CAS.
 
 **Try It Out**
- - If you want to try it out, check out the project and build it. Then go to the integration directory and type:
+ - If you want to try it out, check out the project and build it. Then, in a console window, cd to the integration directory and type:
 
     mvn cargo:run
 
