@@ -13,9 +13,6 @@
 
     <artifactId>secured-web-integration</artifactId>
 
-    <properties>
-        <tomcat.basedir>${basedir}/../servers/tomcat_6</tomcat.basedir>
-    </properties>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>

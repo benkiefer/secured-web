@@ -64,7 +64,7 @@
                     <connectors>
                         <connector implementation="org.mortbay.jetty.security.SslSelectChannelConnector">
                             <port>8444</port>
-                            <keystore>../generic-keystore.jks</keystore>
+                            <keystore>${tomcat.basedir}/conf/generic-keystore.jks</keystore>
                             <keyPassword>password</keyPassword>
                         </connector>
                     </connectors>
