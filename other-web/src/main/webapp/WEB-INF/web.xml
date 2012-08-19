@@ -2,7 +2,7 @@
 <web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
-    <display-name>Archetype Created Other Web Application</display-name>
+    <display-name>Web Application</display-name>
 
     <context-param>
         <param-name>contextConfigLocation</param-name>
@@ -14,20 +14,16 @@
     </listener>
 
     <filter>
-        <filter-name>CASAuthenticationFilter</filter-name>
-        <filter-class>org.jasig.cas.client.authentication.AuthenticationFilter</filter-class>
+        <filter-name>Gateway Authentication Filter</filter-name>
+        <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
         <init-param>
-            <param-name>casServerLoginUrl</param-name>
-            <param-value>https://localhost:8443/authentication/login</param-value>
-        </init-param>
-        <init-param>
-            <param-name>serverName</param-name>
-            <param-value>https://localhost:8445</param-value>
+            <param-name>targetBeanName</param-name>
+            <param-value>gatewayAuthenticationFilter</param-value>
         </init-param>
     </filter>
 
     <filter-mapping>
-        <filter-name>CASAuthenticationFilter</filter-name>
+        <filter-name>Gateway Authentication Filter</filter-name>
         <url-pattern>/*</url-pattern>
     </filter-mapping>
 
