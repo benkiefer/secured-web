@@ -14,7 +14,6 @@
     <artifactId>secured-web-webapp</artifactId>
 
     <dependencies>
-
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>

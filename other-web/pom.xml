@@ -52,6 +52,12 @@
             <artifactId>cas-client-core</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>org.burgers</groupId>
+            <artifactId>secured-web-webapp</artifactId>
+            <type>war</type>
+        </dependency>
+
     </dependencies>
 
 
