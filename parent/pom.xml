@@ -15,7 +15,7 @@
 
     <properties>
         <tomcat.basedir>${basedir}/../servers/tomcat_6</tomcat.basedir>
-        <spring.version>3.0.4.RELEASE</spring.version>
+        <spring.version>3.1.1.RELEASE</spring.version>
         <junit.version>4.8</junit.version>
         <jetty.version>6.1.26</jetty.version>
         <cas.version>3.5.0</cas.version>
